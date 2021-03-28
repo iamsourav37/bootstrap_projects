@@ -1,9 +1,16 @@
 body{
-    background-color: antiquewhite;
+   
 }
 
-.blue{
-    color: blue;
-    font-weight: bold;
+.btn:focus {
+  box-shadow: none;
 }
 
+.btn:active:focus{
+    outline:none;
+    box-shadow:none;
+}
+.divi{
+    width: 30%;
+    margin: 0 auto;
+}
