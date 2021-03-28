@@ -1,16 +1,48 @@
-body{
-   
-}
-
-.btn:focus {
-  box-shadow: none;
-}
-
-.btn:active:focus{
-    outline:none;
-    box-shadow:none;
-}
-.divi{
-    width: 30%;
-    margin: 0 auto;
-}
+    #navbar_brand {
+        font-size: 30px;
+        padding: 10px;
+    }
+    
+    #navbar_brand:hover {
+        color: aqua;
+        transition: 1s;
+    }
+    
+    #navbar_ul {
+        margin-right: 50px;
+    }
+    
+    #navbar_ul li a {
+        font-size: 21px;
+        text-transform: uppercase;
+    }
+    
+    #navbar_ul li {
+        padding: 3px;
+    }
+    
+    .navbar-dark .navbar-nav .nav-link:hover {
+        color: aqua;
+        transition: 0.9s;
+    }
+    
+    #dropdown_menu {
+        background-color: black;
+    }
+    
+    #dropdown_menu li a {
+        color: #fff;
+    }
+    
+    .dropdown-item:hover {
+        background-color: brown;
+    }
+    
+    .btn:focus {
+        box-shadow: none;
+    }
+    
+    .btn:active:focus {
+        outline: none;
+        box-shadow: none;
+    }
