@@ -1,0 +1,38 @@
+body {
+  /* background-color: aquamarine; */
+  overflow-x: hidden;
+}
+html {
+  --scrollbarBG: #030933;
+  --thumbBG: #06ebdf;
+}
+body::-webkit-scrollbar {
+  width: 15px;
+}
+body {
+  scrollbar-width: var(--thumbBG);
+  scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+body::-webkit-scrollbar-track {
+  background: var(--scrollbarBG);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: var(--thumbBG);
+  border-radius: 10px;
+  border: 3px solid #030933;
+}
+
+.mySlider img {
+  filter: brightness(60%);
+  width: 100%;
+  height: 80vh;
+}
+
+#myLogo {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.text-justify {
+  text-align: justify;
+}
